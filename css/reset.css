@@ -1,0 +1,14 @@
+* {margin:0; padding: 0; vertical-align: middle; box-sizing: border-box;}
+html, body {width: 100%; height: 100%;}
+html {font: 14px/1 normal; font-family: 'Nanum Gothic'; color: #333; background-color: #fff;}
+
+ul, ol, li {list-style: none;}
+a {color: #333; text-decoration: none;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: normal;}
+
+strong, b {font-weight: normal;}
+em, i, address {font-style: normal;}
+
+header, main, footer, section, article, aside, nav {display: block;}
+.blind {display:block; text-indent: -2000px; overflow: hidden;}
+button{background:transparent; border: 0;} 

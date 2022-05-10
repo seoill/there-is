@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아파트인가요?</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/lib/jquery-1.12.4.min.js"></script>
+  <script src="./js/lib/postcode.v2.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="container">
+        <h1>이 주소는 아파트인가요?</h1>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap"> 
+        <section id="section1">
+          <div class="container">
+            <button id="search-btn">주소 찾기</button>
+          </div>
+        </section>
+        <sectoin id="section2">
+          <div class="container">
+            <p></p>
+            <div class="span-wrap">
+              <span>이 주소는</span>
+              <span class="dot">...</span>
+              <span class="torf"></span>
+            </div>
+          </div>
+        </sectoin>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+
+<script src="./js/thereisapart.js"></script>
+</body>
+</html>
